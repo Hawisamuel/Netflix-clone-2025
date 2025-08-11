@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.footer_outer_container {
+  background-color: #000;
+  color: #757575;
+  padding: 40px 10%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer_inner_container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 60%;
+}
+
+.footer_icons {
+   margin-top: 25px; 
+  display: flex;
+  gap: 20px;
+  font-size: 22px;
+  align-items: center; /* vertically centers the icons */
+  padding-top: 5px; /* adds a bit of breathing space */
+}
+
+.footer_icons svg {
+  color: #757575;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.footer_icons svg:hover {
+  color: #ef6ebb;
+   transition: color 0.3s ease;
+}
+
+.footer_text {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.footer_text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer_text li {
+  margin-bottom: 10px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer_text li:hover {
+ color: #ef6ebb;
+}
+
+.service_code {
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid #f381da;
+  font-size: 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  width: fit-content;
+}
+
+.service_code:hover {
+  border-color: #fff;
+  color: #ef6ebb;
+}
+
+.copy_write {
+  font-size: 11px;
+  margin-top: 10px;
+  color: #757575;
+}
