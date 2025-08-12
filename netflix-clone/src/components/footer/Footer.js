@@ -50,7 +50,7 @@ const Footer = () => {
             </p>
             </div>
           <div className='copy_write'>
-            &copy; 1997-2025 Netflix, Inc.
+            &copy; 2025 Netflix, Inc. By HAWI SAMUEL😁🎉
             </div>
         </div>
         </div>
